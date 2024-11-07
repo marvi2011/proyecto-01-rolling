@@ -1,0 +1,20 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+nav {
+    background: rgb(250, 205, 213);
+    padding: 12px;
+}
+
+nav a{
+    color: white;
+}
+
+footer{
+background: rgb(250, 205, 213);
+padding: 25px 0px;
+color: rgb(5, 167, 221);
+text-align: center;
+}
