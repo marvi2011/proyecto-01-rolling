@@ -18,3 +18,10 @@ padding: 25px 0px;
 color: rgb(5, 167, 221);
 text-align: center;
 }
+.contenedorPrincipal{
+  margin: 30px;
+}
+
+#tituloDestacado{
+  color: rgb(241, 171, 40);
+}
