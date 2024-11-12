@@ -20,120 +20,125 @@
     <header>
       <nav>
         <a href="../index.html">Inicio</a>
-        <a href="../pages/elementos.html">Elementos</a>
+        <a href="../pages/elementos.html" class="paginaActiva">Elementos</a>
         <a href="../pages/flexbox.html">Flexbox</a>
         <a href="../pages/position.html">Position</a>
         <a href="../pages/contactos.html">Contactos</a>
       </nav>
     </header>
     <main>
-      <section>
-      <h1>Practica de elementos de HTML</h1>
-      <article>
-      <h2>Todos los niveles de la etiqueta <b>h</b></h2>
-      <p>
-        Las etiqueta de encabezado en HTML representadas por &lt;h1&gt;,
-        &lt;h2&gt;, &lt;h3&gt;, &lt;h4&gt;, &lt;h5&gt; y &lt;h6&gt; , son
-        fundamentales para organizar y estructurar el contenido a una pagina web
-        en diferenntes niveles de importancia. Estas etiquetas son utilizadas
-        para marcar los titulos y subtitulos de una pagina , lo que ayuda a los
-        navegadores y motores de busqueda a comprender la jerarquía y la
-        relevancia del contenido. El número en la etiqueta indica el nivel de
-        importancia del encabezador, siendo &lt;h1&gt; el más importante y
-        &lt;h6&gt; el menos importante.
-      </p>
-      <p>
-        El &lt;h1&gt; se reserva generalmente para el titulo principal de la
-        pagina, mientras que los encabezados del &lt;h2&gt; al &lt;h6&gt; se
-        utilizan para subtitulos y se organizan jerarquicamente segun su
-        relevancia y relacion con el contenido principal. Es importante utilizar
-        los encabezados de manera semántica , es decir, asignar el nivel de
-        encabezado adecuado basado en la estructura y la importancia del
-        contenido. Esto no solo mejora la accesibilidad para los usuarios , sino
-        que tambien ayusa a los motores de busqueda a indexar y comprender mejor
-        el contenido de la página.
-      </p>
-    </article>
-    <article>
-      <h2>Título h2</h2>
-      <h3>Título h3</h3>
-      <h4>Título h4</h4>
-      <h5>Título h5</h5>
-      <h6>Título h6</h6>
-    </article>
-    <article>
-      <h2>Elementos</h2>
-      <h3>Ejemplo de párrafo</h3>
-      <p>
-        En HTML los párrafos son elementos fundamentales para para estructuras y
-        organizar el contenido textual de una página web. Se utilizan para
-        agrupar y separar diferentes bloques de textos, lo que facilita la
-        legibilidad y comprensión del contenido. La etiqueta &lt;p6&gt; es la
-        que se emplea en HTML para crear un parrafo. Al encerrar un bloque de
-        texto entre estas etiquetas de apertura y cierre &lt;p&gt; y &lt;/p&gt;,
-        se define un nuevo parrafo en el documento. Esto permite que los
-        navegadores web apliquen automáticamente un espacio vertical entre
-        párrafos, creeando así una estructura visual clara y ordenada.
-      </p>
-      <p>
-        Por otro lado la etiqueta &lt;span&gt; en HTML sirve para apliar estilos
-        o funcionalidades especificas a porciones de texto dentro de un parrafo
-        u otro elemento en bloque. A diferencia de la etiqueta &lt;p&gt;, que
-        define un bloque completo de texto, la etiqueta &lt;span&gt; se utiliza
-        para marcar o envolver partes especificas del texto sin afectar la
-        estructur general del documento. Por ejemplo, se puede utlizar la
-        etiqueta &lt;span&gt; para aplicar estilos de texto, como cambiar el
-        color, la fuente o el tamaño de una palabra o frase dentro de un
-        parrafo. Ademas la etiqueta &lt;span&gt; tambien se utiliza
-        frecuentemente junto con script o estilo CSS para añadir iteractividad o
-        funcionalidades dinamicas a elementos de texto especificos. En resumen,
-        mientras que los parrafos (&lt;p&gt;) se utilizan para organizar bloques
-        completos de texto, las etiquetas &lt;span&gt; ofrecen mayor
-        flexibilidad al permitir la manipulación de partes individuales del
-        contenido de estos párrafos. completos de textos.
-      </p>
-    </article>
-      <h2>Listas</h2>
-      <article>
-      <h3>Herramientas de Frontend</h3>
-      <ul>
-        <li>
-          HTML
-          <a href="https://developer.mozilla.org/en-US/" target="-blanck"
-            >(documentacion de developer mozzila)</a
-          >
-        </li>
-        <li>
-          CSS
-          <a href="https://developer.mozilla.org/en-US/" target="-blanck"
-            >(documentación de developer mozzila)</a
-          >
-        </li>
-        <li>
-          BOOTSTRAP
-          <a
-            href="https://getbootstrap.com/docs/5.3/getting-started/introduction/"
-            target="-blanck"
-            >(documentación de bootstrap)</a
-          >
-        </li>
-        <li>
-          REACT
-          <a href="https://es.react.dev/" target="-blanck"
-            >(documentación de react)</a
-          >
-        </li>
-      </ul>
-    </article>
-    <article>
-      <h3>Herramientas de backend con botones</h3>
-      <ol>
-        <li><button>Node Js</button></li>
-        <li><button>Express</button></li>
-        <li><button>Bases de datos</button></li>
-      </ol>
-    </article>
-    </section>
+      <section class="contenedorPrincipal">
+        <h1>Practica de elementos de HTML</h1>
+        <article>
+          <h2 id="tituloDestacado">
+            Todos los niveles de la etiqueta <b>h</b>
+          </h2>
+          <p>
+            Las etiqueta de encabezado en HTML representadas por &lt;h1&gt;,
+            &lt;h2&gt;, &lt;h3&gt;, &lt;h4&gt;, &lt;h5&gt; y &lt;h6&gt; , son
+            fundamentales para organizar y estructurar el contenido a una pagina
+            web en diferenntes niveles de importancia. Estas etiquetas son
+            utilizadas para marcar los titulos y subtitulos de una pagina , lo
+            que ayuda a los navegadores y motores de busqueda a comprender la
+            jerarquía y la relevancia del contenido. El número en la etiqueta
+            indica el nivel de importancia del encabezador, siendo &lt;h1&gt; el
+            más importante y &lt;h6&gt; el menos importante.
+          </p>
+          <p>
+            El &lt;h1&gt; se reserva generalmente para el titulo principal de la
+            pagina, mientras que los encabezados del &lt;h2&gt; al &lt;h6&gt; se
+            utilizan para subtitulos y se organizan jerarquicamente segun su
+            relevancia y relacion con el contenido principal. Es importante
+            utilizar los encabezados de manera semántica , es decir, asignar el
+            nivel de encabezado adecuado basado en la estructura y la
+            importancia del contenido. Esto no solo mejora la accesibilidad para
+            los usuarios , sino que tambien ayusa a los motores de busqueda a
+            indexar y comprender mejor el contenido de la página.
+          </p>
+        </article>
+        <article>
+          <h2>Título h2</h2>
+          <h3>Título h3</h3>
+          <h4>Título h4</h4>
+          <h5>Título h5</h5>
+          <h6>Título h6</h6>
+        </article>
+        <article>
+          <h2>Elementos</h2>
+          <h3>Ejemplo de párrafo</h3>
+          <p>
+            En HTML los párrafos son elementos fundamentales para para
+            estructuras y organizar el contenido textual de una página web. Se
+            utilizan para agrupar y separar diferentes bloques de textos, lo que
+            facilita la legibilidad y comprensión del contenido. La etiqueta
+            &lt;p6&gt; es la que se emplea en HTML para crear un parrafo. Al
+            encerrar un bloque de texto entre estas etiquetas de apertura y
+            cierre &lt;p&gt; y &lt;/p&gt;, se define un nuevo parrafo en el
+            documento. Esto permite que los navegadores web apliquen
+            automáticamente un espacio vertical entre párrafos, creeando así una
+            estructura visual clara y ordenada.
+          </p>
+          <p>
+            Por otro lado la etiqueta &lt;span&gt; en HTML sirve para apliar
+            estilos o funcionalidades especificas a porciones de texto dentro de
+            un parrafo u otro elemento en bloque. A diferencia de la etiqueta
+            &lt;p&gt;, que define un bloque completo de texto, la etiqueta
+            &lt;span&gt; se utiliza para marcar o envolver partes especificas
+            del texto sin afectar la estructur general del documento. Por
+            ejemplo, se puede utlizar la etiqueta &lt;span&gt; para aplicar
+            estilos de texto, como cambiar el color, la fuente o el tamaño de
+            una palabra o frase dentro de un parrafo. Ademas la etiqueta
+            &lt;span&gt; tambien se utiliza frecuentemente junto con script o
+            estilo CSS para añadir iteractividad o funcionalidades dinamicas a
+            elementos de texto especificos. En resumen, mientras que los
+            parrafos (&lt;p&gt;) se utilizan para organizar bloques completos de
+            texto, las etiquetas &lt;span&gt; ofrecen mayor flexibilidad al
+            permitir la manipulación de partes individuales del contenido de
+            estos párrafos. completos de textos.
+          </p>
+        </article>
+        <h2>Listas</h2>
+        <article>
+          <h3>Herramientas de Frontend</h3>
+          <ul>
+            <li>
+              html
+              <a href="https://developer.mozilla.org/en-US/" target="-blanck"
+                >(documentacion de developer mozzila)</a
+              >
+            </li>
+            <li>
+              css
+              <a href="https://developer.mozilla.org/en-US/" target="-blanck"
+                >(documentación de developer mozzila)</a
+              >
+            </li>
+            <li>
+              bootstrap
+              <a
+                href="https://getbootstrap.com/docs/5.3/getting-started/introduction/"
+                target="-blanck"
+                >(documentación de bootstrap)</a
+              >
+            </li>
+            <li>
+              react
+              <a href="https://es.react.dev/" target="-blanck"
+                >(documentación de react)</a
+              >
+            </li>
+          </ul>
+        </article>
+        <article>
+          <h3>Herramientas de backend con botones</h3>
+          <ol>
+            <li><button id="btn1">- Node Js -</button></li>
+            <li><button id="btn2">- Express -</button></li>
+            <li><button id="btn3">- Bases de datos -</button></li>
+            <li><button id="btn4">- MongoDb -</button></li>
+          </ol>
+        </article>
+      </section>
     </main>
     <footer>
       <p>&copy;RollingCode - Todos los derechos reservados</p>
