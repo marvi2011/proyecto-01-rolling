@@ -38,6 +38,9 @@ footer {
 #tituloDestacado {
   color: rgb(241, 171, 40);
 }
+#tituloDestacado::first-letter{
+  font-size: 35px;
+}
 
 p,
 h1,
