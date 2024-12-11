@@ -13,7 +13,7 @@
     />
     <meta name="author" content="Victoria Gramajo" />
     <link rel="icon" href="../img/logoVG3.jpg" />
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/style.css" />
     <title>Mi primer web</title>
   </head>
   <body>
@@ -26,11 +26,42 @@
         <a href="./contactos.html" class="paginaActiva">Contactos</a>
       </nav>
     </header>
-    <main>
-        <h1>Contacto</h1>
+    <main class="contenedorPrincipal">
+      <h1>Contacto</h1>
+      <section class="formContacto">
+        <h3>Envianos tu consulta</h3>
+        <form>
+          <label>Nombre y Apellido</label>
+          <input
+            type="text"
+            placeholder="Maria Gomez"
+            minlength="3"
+            maxlength="80"
+            required
+          />
+          <label>Email</label>
+          <input
+            type="mail"
+            placeholder="mariagomez@mail.com"
+            minlength="15"
+            maxlength="50"
+            required
+          />
+          <label>Teléfono</label>
+          <input
+            type="tel"
+            placeholder="3812258795"
+            min="10"
+            max="15"
+            required
+          />
+          <label>Intese su consulta</label>
+          <textarea ></textarea>
+        </form>
+      </section>
     </main>
     <footer>
-        <p>&copy;RollingCode - Todos los derechos reservados</p>
+      <p>&copy;RollingCode - Todos los derechos reservados</p>
     </footer>
   </body>
 </html>

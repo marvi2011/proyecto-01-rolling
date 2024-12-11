@@ -19,7 +19,7 @@ nav a {
   padding: 5px;
 }
 
-nav a:hover{
+nav a:hover {
   color: rgb(194, 121, 133);
   font-weight: bold;
   text-decoration: underline;
@@ -38,7 +38,7 @@ footer {
 #tituloDestacado {
   color: rgb(241, 171, 40);
 }
-#tituloDestacado::first-letter{
+#tituloDestacado::first-letter {
   font-size: 35px;
 }
 
@@ -65,6 +65,9 @@ img {
 }
 
 h1 {
+  text-align: center;
+}
+h3{
   text-align: center;
 }
 li {
@@ -148,18 +151,28 @@ input[type="submit"] {
 }
 
 /*estilos de tablas*/
-table{
+table {
   border: 2px solid rgb(250, 134, 153);
   border-collapse: collapse;
   margin-bottom: 15px;
 }
-td, th{
+td,
+th {
   border: 1px solid rgb(250, 134, 153);
   padding: 5px;
 }
-th{
+th {
   background-color: rgb(248, 204, 211);
 }
-tbody tr:nth-child(odd){
+tbody tr:nth-child(odd) {
   background-color: rgb(247, 238, 239);
+}
+
+.formContacto {
+  width: 600px;
+  height: 300px;
+  border: 1px solid, rgb(248, 204, 211);
+  margin: 50px;
+  background-color: rgba(248, 240, 240, 0.247);
+ 
 }
