@@ -1,13 +1,56 @@
-.rectangulo{
-    width: 300px;
-    height: 150px;
-    border: 1px solid,  rgb(248, 204, 211);
-    text-align: center;
+.rectangulo {
+  width: 300px;
+  height: 150px;
+  border: 1px solid, rgb(248, 204, 211);
+  text-align: center;
+  background-color: blanchedalmond;
 }
-.contenedorPadre{
-    border: 1px solid,  rgb(252, 51, 84);
+.contenedorPadre {
+  border: 1px solid, rgb(252, 51, 84);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.contendorJustifyContent {
+  border: 1px solid, rgb(252, 51, 84);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.contendorSpaceBetween {
+  border: 1px solid, rgb(252, 51, 84);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.contendorAlignSpaceAround {
+  border: 1px solid, rgb(252, 51, 84);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-around;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+}
+.contendorAlignFlexStar {
+  border: 1px solid, rgb(252, 51, 84);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: center;
+  height: 400px;
+}
+.contendorAlignFlexEnd {
+    border: 1px solid, rgb(252, 51, 84);
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: flex-start;
-}
+    align-content: flex-end;
+    justify-content: center;
+    height: 400px;
+  }
