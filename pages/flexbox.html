@@ -95,6 +95,110 @@
           <div class="rectangulo">6</div>
         </article>
       </section>
+      <section class="contenedorPrincipal">
+        <h2>Align-content: space-between</h2>
+        <article class="contendorAlignSpaceBetween">
+          <div class="rectangulo">1</div>
+          <div class="rectangulo">2</div>
+          <div class="rectangulo">3</div>
+          <div class="rectangulo">4</div>
+          <div class="rectangulo">5</div>
+          <div class="rectangulo">6</div>
+        </article>
+      </section>
+      <section class="contenedorPrincipal">
+        <h2>Align-Items</h2>
+        <p>
+          La propiedad Align-items en CSS se utiliza dentro de un contenedor
+          flexible (display: flex) para alinear los alementos secundarios
+          (hijos) a lo largo del eje secundario (o transversal) del contenedor.
+          Este eje es perpendicular al eje principal, que es definido por la
+          propiedad flex-direction (ya sea en fila o en columna, row o column).
+        </p>
+        <p>Los valores que puede tomar son los siguientes:</p>
+        <ol>
+          <li>
+            flex-start: los elementos secundarios se alinean al inicio del
+            contenedor flexible que es el eje transveral
+          </li>
+          <li>
+            flex-end: los elementos secundarios se alinean al final del
+            contenedor flexible que es el eje transveral
+          </li>
+          <li>
+            center: los elementos secundarios se alinean en el centro del
+            contenedor flexible que es el eje transveral
+          </li>
+          <li>
+            baseline: los elementos secundarios se alinean en su linea base
+            común dentro del contenedor flexible
+          </li>
+          <li>
+            strech: los elementos secundario se estiran para ocupar todo el
+            espacio disponible en el eje transversal del contenedor flexible
+          </li>
+        </ol>
+      </section>
+      <section class="contenedorPrincipal">
+        <h2>Align-item: center</h2>
+        <article class="contenedorAlignItemCenter">
+          <div class="rectangulo">1</div>
+          <div class="rectangulo">2</div>
+          <div class="rectangulo">3</div>
+          <div class="rectangulo">4</div>
+        </article>
+      </section>
+      <section class="contenedorPrincipal">
+        <h2>Align-items: stretch</h2>
+        <p>En este ejemplo definir otra clase para crear las cajitas 1, 2, 3 y 4 , donde solo establecemos el ancho width y no altura heigth.
+        </p>
+        <article class="contenedorAlignItemStretch">
+          <div class="rectangulo2">1</div>
+          <div class="rectangulo2">2</div>
+          <div class="rectangulo2">3</div>
+          <div class="rectangulo2">4</div>
+        </article>
+      </section>
+      <section class="contenedorPrincipal">
+        <h2>Propiedades que se aplican a los items hijos</h2>
+        <h4>Propiedad de los items hijos: order</h4>
+        <p>
+          La propiedad order en CSS flexbox se utiliza para cambiar el orden de
+          los elementos secunadarios (hijos) dentro de un contenedor flexible
+          sin cambiar el orden en el código HTML. Esta propiedad toma un valor
+          numérico que determina el orden en el que se renderizan los elementos
+          dentro del flexible.
+        </p>
+        <p>
+          Por defecto, todos los elementos secundarios tienen un valor de order
+          predeterminado de 0. Al asignar un valor numérico diferente a la
+          propiedad order se puede especificar un nuevo orden de visualización
+          para ese elemento. Los elementos con un numero de orden más bajo se
+          muestran antes que los elementos con un numero de orden más alto.
+        </p>
+        <p>
+          Por ejemplo, si tienes tres elementos secundarios dentro de un
+          contenedor flexible y quieres que el tercerose muestre primero, puedes
+          establecer su propiedad orden en -1 mientras que los otros dos
+          elementos pueden permanecer con el valor predeterminado de 0.
+        </p>
+        <p>
+          En resumen, la propiedad order en Flexbox es una manera conveniente de
+          cambiar el orden visual de los elementos secundarios dentro de un
+          contenedor flexible sin alterar su orden en el codigo HTML
+        </p>
+      </section>
+      <section class="contenedorPrincipal">
+        <h2>Order</h2>
+        <article class="contendorOrder">
+          <div class="rectangulo rectanguloOrder">1</div>
+          <div class="rectangulo">2</div>
+          <div class="rectangulo">3</div>
+          <div class="rectangulo">4</div>
+          <div class="rectangulo">5</div>
+          <div class="rectangulo">6</div>
+        </article>
+      </section>
     </main>
     <footer>
       <p>&copy;RollingCode - Todos los derechos reservados</p>

@@ -46,11 +46,57 @@
   height: 400px;
 }
 .contendorAlignFlexEnd {
-    border: 1px solid, rgb(252, 51, 84);
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: flex-end;
-    justify-content: center;
-    height: 400px;
-  }
+  border: 1px solid, rgb(252, 51, 84);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  justify-content: center;
+  height: 400px;
+}
+.contendorAlignSpaceBetween {
+  border: 1px solid, rgb(252, 51, 84);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: center;
+  height: 400px;
+}
+.contenedorAlignItemCenter {
+  border: 1px, solid, rgb(252, 51, 84);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  height: 400px;
+  align-items: center;
+}
+.contenedorAlignItemStretch {
+  border: 1px, solid, rgb(252, 51, 84);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 400px;
+  align-items: stretch;
+}
+.rectangulo2 {
+  width: 300px;
+  border: 1px solid, rgb(248, 204, 211);
+  text-align: center;
+  background-color: blanchedalmond;
+}
+.contendorOrder {
+  border: 1px solid, rgb(252, 51, 84);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: center;
+  height: 400px;
+}
+.rectanguloOrder {
+  order: 1;
+}
