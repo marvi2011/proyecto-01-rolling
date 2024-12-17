@@ -194,7 +194,6 @@ textarea {
   margin-top: 5px;
 }
 .contenedorListas {
-  
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
